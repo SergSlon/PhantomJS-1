@@ -1,0 +1,21 @@
+{
+    "name": "sublime/phantomjs",
+    "type": "library",
+    "description": "Sublime PhantomJS service",
+    "keywords": [],
+    "homepage": "https://github.com/chrsm/PhantomJS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Martinez",
+            "email": "chrstphrmrtnz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": { "Sublime\\Service\\PhantomJS": "" }
+    },
+    "target-dir": "Sublime/Service/PhantomJS"
+}
